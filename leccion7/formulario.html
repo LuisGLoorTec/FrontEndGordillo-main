@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>Registro de ususario</h1>
+
+    <form method="get">
+        <fieldset>
+            <legend>Registro de usuario </legend>
+            <label for="nombre">Nombre: </label> <input name="nombre" id="nombre" type="text" maxlength="10" minlength="1" placeholder="Escriba aqui su nombre" required>
+            <br>
+            <label for="apellido">Apellido: </label> <input name="apellido" id="apellido" type="text" placeholder="escriba aqui su apellido" required>
+            <br>
+            <label for="edad">Edad: </label><input step="1" name="edad" id="edad" type="number" min="1" max="90" required>
+            <br>
+            <label for="">Fec de nacimento: </label> <input type="date">
+            <label for="">hora de nacimento</label> <input type="time">
+            <br>
+            <label for="">Sexo: </label><br>
+            <label for="">Masculino</label><input type="radio" name="sexo" id="">
+            <label for="">Femenino</label><input type="radio" name="sexo" id="">
+            <br>
+            <label for="">Color Favorito: </label> <input type="color" name="" id=""><br>
+            <label for="">Musica Favorita:</label><br>
+            <label for="">Rap</label><input type="checkbox" name="" id="">
+            <br>
+            <label for="">Salsa</label><input type="checkbox" name="" id="          "><br>
+            <label for="">Bolero</label><input type="checkbox" name="" id="">
+            <br>
+            <label for="">Email</label><input type="email" name="" id="">
+            <br>
+            <label for="">importa tu foto</label> <input type="file" name="" id="" accept=".jpg">
+            <br><input type="hidden" >
+            <br>
+            <label for="">Contraseña; </label><input type="password">
+
+
+        
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+
+    
+</body>
+</html>
