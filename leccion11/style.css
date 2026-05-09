@@ -1,0 +1,28 @@
+h1, h2, p{
+    color: white;
+}
+/*body{
+    background-image: url('1324452.png'), url('1360763.jpeg'); 
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+    background-size: 50%, 50%;
+}*/
+body{
+    background: linear-gradient(to right, #20dba6, #f1747d);
+}
+
+html, body{
+    height: 100%;
+}
+p{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #5e0947;
+    letter-spacing: 6px;
+    text-indent: 30px;
+    line-height: 3;
+    white-space: nowrap;
+}
+
+a{
+    text-decoration: none ;
+}
